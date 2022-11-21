@@ -1,23 +1,20 @@
-#include <iostream>
-using namespace std;
-
-int main()
+int main () 
 {
-    int n,a=1,b=1,somma;
+    int i, n=0, a=1, b=0, c;
     cin>>n;
-    if(n<2)
+    if (n>=2)
     {
-    cout<<"errore"<<endl;
+
+        for(i=0;i<n;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+            cout<<c<<endl;
+        }}
+    else{
+        cout<<"errore"<<endl;
     }
-    else
-    {
-     for (int i=0;i<n;i++)
-     {
-         somma=a+b;
-         a=b;
-         b=somma;
-         cout<<somma<<endl;
-     }
-    }
+
     return 0;
 }
