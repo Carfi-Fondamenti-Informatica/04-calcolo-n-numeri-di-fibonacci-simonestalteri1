@@ -16,8 +16,6 @@ int main()
          somma=a+b;
          a=b;
          b=somma;
-         cout<<a<<endl;
-         cout<<b<<endl;
          cout<<somma<<endl;
      }
     }
