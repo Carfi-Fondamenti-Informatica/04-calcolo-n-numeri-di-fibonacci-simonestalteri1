@@ -1,6 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-   return 0;
+int main()
+{
+    int n,a=1,b=1,somma=a+b;
+    cin>>n;
+    if(n<2)
+    {
+    cout<<"errore"<<endl;
+    }
+    else
+    {
+     for (int i=0;i<n;i++)
+     {
+         somma=a+b;
+         a=b;
+         b=somma;
+         cout<<a<<endl;
+         cout<<b<<endl;
+         cout<<somma<<endl;
+     }
+    }
+    return 0;
 }
