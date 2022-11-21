@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n,a=1,b=1,somma=a+b;
+    int n,a=1,b=1,somma;
     cin>>n;
     if(n<2)
     {
