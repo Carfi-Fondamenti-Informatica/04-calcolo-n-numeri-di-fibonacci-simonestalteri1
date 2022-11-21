@@ -4,15 +4,16 @@ int main ()
     cin>>n;
     if (n>=2)
     {
-
         for(i=0;i<n;i++)
         {
             c=a+b;
             a=b;
             b=c;
             cout<<c<<endl;
-        }}
-    else{
+        }
+    }
+    else
+    {
         cout<<"errore"<<endl;
     }
 
